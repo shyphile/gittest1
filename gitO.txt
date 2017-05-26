@@ -1,0 +1,9 @@
+安装完成后 配置使用者参数
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+在空文件夹里 初始化成空的版本库
+$ git init
+
+提交修改到暂存区
+$ git add fileName.txt
