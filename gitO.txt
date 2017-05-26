@@ -42,12 +42,16 @@ $ git reflog
 用于删除本地仓库文件夹里的文件 并提交给暂存区  还是要使用git commit 提交给版本库     
 $ git rm test.txt  本命令主要是应用到文件的删除 而不是内容的更改  因为git add 是文件存在情况下提交修改的内容
 
-生成ssh密钥
+生成ssh密钥 密钥存在路径 一般是"C:\Users\Administrator\.ssh"文件夹下
 $ ssh-keygen -t rsa -C "youremail@example.com"
 
-
+关联一个远程仓库
 $ git remote add origin git@github.com:michaelliao/learngit.git
+
+关联后 第一次推送master分支的所有内容 -u主要是分为了建立本力与远程master分支的联系
 $ git push -u origin master
-fuck
+
+首次以后推送master分支的所有内容
+$ git push origin master
 
 可以将一个文件夹直接提交 这样他里面所有内容也提交了
