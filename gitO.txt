@@ -78,6 +78,10 @@ $ git merge dev
 
 合并完成后，删除dev分支
 $ git branch -d dev
+<<<<<<< HEAD
+=======
+123
+>>>>>>> dev
 
 dev的修改123
 
