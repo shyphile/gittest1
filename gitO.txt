@@ -23,5 +23,12 @@ git log --pretty=oneline 简化查看各个版本
 
 退回到上一个版本
 $ git reset --hard HEAD^
+
 退回到上N处版本
 $ git reset --hard HEAD~N
+
+根据commit id 回退指定版本
+例:$ git reset --hard 3628164
+
+查询每一次命令 可以找回已经失踪的commit id 以便退回的版本往前进
+$ git reflog
