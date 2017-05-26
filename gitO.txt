@@ -79,6 +79,8 @@ $ git merge dev
 合并完成后，删除dev分支123456
 $ git branch -d dev
 
+123
+
 
 
 
