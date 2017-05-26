@@ -11,6 +11,9 @@ $ git add fileName.txt
 将保存到暂存区的修改提交到分支上存储
 $ git commit -m "修改说明"
 
+以下命令等同以上两条命令单独执行
+$ git commit -a -m "14"
+
 查看仓库当前的状态
 git status
 
@@ -67,6 +70,8 @@ $ git checkout -b dev
 $ git branch dev
 $ git checkout dev
 
+查看分支
+git branch
 
 
 
