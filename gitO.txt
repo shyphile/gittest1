@@ -16,3 +16,7 @@ git status
 
 看版本库与工作区内容的不同
 $ git diff readme.txt 
+
+查看提交的各个版本
+git log
+git log --pretty=oneline 简化查看各个版本
