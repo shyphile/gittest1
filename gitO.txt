@@ -78,7 +78,7 @@ $ git merge dev
 
 合并完成后，删除dev分支
 $ git branch -d dev
-
+master修改
 
 
 
