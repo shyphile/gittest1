@@ -76,10 +76,11 @@ git branch
 合并指定分支到当前分支
 $ git merge dev
 
-合并完成后，删除dev分支123456
+合并完成后，删除dev分支
 $ git branch -d dev
 
-123
+这是在dev中的修改1
+
 
 
 
