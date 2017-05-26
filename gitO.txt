@@ -54,4 +54,29 @@ $ git push -u origin master
 首次以后推送master分支的所有内容
 $ git push origin master
 
+远程已有版本库的 克隆到本地的命令
+例:$ git clone git@github.com:shyphile/test05260.git
+
+分支的理解:假如项目在一起开发 你负责的功能没有写完 所以暂时不能提交到master上 因为你若提交了 别人获取时 得到是一个没写完的功能 影响程序编写
+		   但是你又需要先提交到云端保存 以免存在本地的风险 这时你就可以建立个分支 将你未写完的功能先提交到这个分支上  这个分支属于你 别人不会
+		   获取到 等你哪天在这个分支上将功能写完了 再将本分支和master合并 
+		   
+创建dev分支，然后切换到dev分支		   
+$ git checkout -b dev  
+等同以下两条命令单独执行
+$ git branch dev
+$ git checkout dev
+
+
+
+
+
+
+
+
+
+
+
+
+
 可以将一个文件夹直接提交 这样他里面所有内容也提交了
