@@ -13,3 +13,6 @@ $ git commit -m "修改说明"
 
 查看仓库当前的状态
 git status
+
+看版本库与工作区内容的不同
+$ git diff readme.txt 
