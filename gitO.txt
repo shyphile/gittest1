@@ -20,3 +20,8 @@ $ git diff readme.txt
 查看提交的各个版本
 git log
 git log --pretty=oneline 简化查看各个版本
+
+退回到上一个版本
+$ git reset --hard HEAD^
+退回到上N处版本
+$ git reset --hard HEAD~N
