@@ -5,5 +5,11 @@ $ git config --global user.email "email@example.com"
 在空文件夹里 初始化成空的版本库
 $ git init
 
-提交修改到暂存区
+保存修改到暂存区
 $ git add fileName.txt
+
+将保存到暂存区的修改提交到分支上存储
+$ git commit -m "修改说明"
+
+查看仓库当前的状态
+git status
