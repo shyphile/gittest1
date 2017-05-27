@@ -1,4 +1,4 @@
-安装完成后 配置使用者参数
+﻿安装完成后 配置使用者参数
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 
@@ -82,6 +82,7 @@ $ git branch -d dev
 
 本地冲突的理解:
 远程冲突的理解:
+05270914
 
 
 
