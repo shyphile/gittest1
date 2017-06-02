@@ -18,7 +18,7 @@ $ git commit -a -m "14"
 git status
 
 看版本库与工作区内容的不同
-$ git diff readme.txt 
+$ git diff readme.
 
 查看提交的各个版本
 git log
@@ -79,10 +79,14 @@ $ git merge dev
 合并完成后，删除dev分支
 $ git branch -d dev
 
+从远程获取最新版本到本地
+git fetch origin master
+
+
 
 本地冲突的理解:
 远程冲突的理解:
-05270914
+
 
 
 
